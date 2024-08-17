@@ -4,10 +4,10 @@
 
 @layer utilities {
     .img-shadow {
-        filter: drop-shadow(40px 50px 25px #77bbdd );
+        filter: drop-shadow(40px 50px 25px #b7f8dc );
     }
 
         .img-shadow2 {
-            filter: drop-shadow(10px 30px 15px #b4d4e4);
+            filter: drop-shadow(10px 30px 15px #10f090);
         }
 }

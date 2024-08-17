@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from '../../assets/bg-slate.png';
+import backgroundImage from '../../assets/bg-slate.jpg';
 import iceCorn from '../../assets/ice-corn.png';
 import Navbar from '../Navbar/Navbar';
 import { motion } from 'framer-motion';
@@ -16,7 +16,7 @@ const Hero = () => {
   const [Sidebar, setSidebar] = React.useState(false);
   return (
     <main style={bgStyles}>
-      <section className='relative min-h-[750px] w-full'>
+      <section className='relative h-[830px] w-full'>
         <div className='container'>
           {/* Navbar section */}
           <Navbar Sidebar = {Sidebar} setSidebar ={setSidebar} />

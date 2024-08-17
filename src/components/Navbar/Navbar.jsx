@@ -12,7 +12,7 @@ const Navbar = ({Sidebar, setSidebar}) => {
                   initial={{ y: -100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ type: 'spring', stiffness: 100, damping: 10, delay: 1.2 }}
-            className='text-2xl font-semibold uppercase'><span className="text-slate-900  " >Frozen </span>Fantasy.</motion.h1>
+            className='text-2xl font-semibold uppercase'><span className="text-yellow-950  " >Frozen </span>Fantasy.</motion.h1>
           {/* menu section */}
           <motion.div
                   initial={{ y: -100, opacity: 0 }}
