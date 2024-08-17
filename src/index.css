@@ -10,4 +10,20 @@
         .img-shadow2 {
             filter: drop-shadow(10px 30px 15px #a0eded);
         }
+
+        .input-style {
+            @apply
+            px-4 py-2 border-[1px]
+            border-gray-400
+            rounded-md
+        }
+
+        .primary-btn {
+            @apply
+            px-4 py-2
+            bg-emerald-600
+            text-white
+            rounded-md
+            hover:bg-teal-400
+        }
 }
