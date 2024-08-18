@@ -99,8 +99,8 @@ const Footer = () => {
                 Address
               </h1>
               <div>
-                <p className="mb-3">Noida , Uttar Pradesh</p>
-                <p>+91 1234567890</p>
+                <p className="mb-3">Galle , Sri Lanka</p>
+                <p>+94 764398193</p>
 
                 {/* social links */}
                 <div className="flex items-center gap-3 mt-6">
